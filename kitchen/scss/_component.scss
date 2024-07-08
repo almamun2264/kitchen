@@ -1,0 +1,23 @@
+.btn {
+    display: inline-block;
+    padding: 2rem 5rem;
+    text-decoration: none;
+    font-size: 1.7rem;
+    border-radius: 5rem;
+    font-weight: 600;
+    margin-top: $margin-top-small;
+
+    &:link,
+    &:visited {
+        color: $color-text;
+        background-color: $color-orange;
+        transition: all 0.3s;
+
+    }
+
+    &:hover,
+    &:active {
+        background-color: $color-white;
+        cursor: pointer;
+    }
+}
