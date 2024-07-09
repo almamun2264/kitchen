@@ -29,9 +29,7 @@ body {
 .para-primary {
   font-size: 1.7rem;
   color: #182427;
-  text-align: center;
-  font-weight: 500;
-  padding: 0 15rem; }
+  font-weight: 500; }
 
 .btn {
   display: inline-block;
@@ -41,13 +39,14 @@ body {
   border-radius: 5rem;
   font-weight: 600;
   margin-top: 4rem; }
+  .btn-box {
+    text-align: center; }
   .btn:link, .btn:visited {
     color: #182427;
     background-color: #ffa502;
     transition: all 0.3s; }
   .btn:hover, .btn:active {
-    background-color: #fff;
-    cursor: pointer; }
+    background-color: #fff; }
 
 .flex {
   display: flex;
@@ -59,24 +58,16 @@ body {
   margin: 0 auto; }
 
 .section-hero {
-  height: 93vh;
-  z-index: -1; }
+  height: 93vh; }
 
 .hero {
   height: 95vh;
-  background: url(../img/hero.jpg);
+  background: url(../img/hero.jpg), rgba(0, 0, 0, 0.484);
+  background-blend-mode: color;
   background-size: cover;
   background-position: center;
   position: relative;
-  z-index: -2; }
-  .hero::before {
-    background-color: rgba(0, 0, 0, 0.484);
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    z-index: -1; }
+  z-index: -1; }
   .hero__box {
     height: 100%;
     width: 100%;
@@ -105,3 +96,47 @@ body {
     display: block;
     width: 95%;
     border-radius: 2rem; }
+
+.intro_img-box {
+  height: 70rem;
+  width: 100%; }
+
+.intro-img {
+  height: 100%;
+  width: 100%;
+  display: block; }
+
+.intro_text-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+  margin-bottom: 6rem; }
+  .intro_text-box div {
+    padding: 4rem; }
+  .intro_text-box-item {
+    width: calc(100% /3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; }
+    .intro_text-box-item h2 {
+      margin-bottom: 2rem;
+      font-size: 3rem; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-center-item {
+  align-items: center; }
+
+.u-paddig-l-r-4 {
+  padding-left: 4rem;
+  padding-right: 4rem; }
+
+.u-paddig-l-r-6 {
+  padding-left: 6rem;
+  padding-right: 6rem; }
+
+.u-paddig-l-r-10 {
+  padding-left: 10rem;
+  padding-right: 10rem; }

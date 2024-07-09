@@ -6,10 +6,7 @@
     border-radius: 5rem;
     font-weight: 600;
     margin-top: $margin-top-small;
-
-    &-box {
-        text-align: center;
-    }
+    z-index: 2;
 
     &:link,
     &:visited {
