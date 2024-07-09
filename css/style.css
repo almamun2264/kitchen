@@ -31,8 +31,22 @@ body {
   color: #182427;
   font-weight: 400; }
 
+.heading-tertiary-2 {
+  font-size: 2rem;
+  color: #ffa502;
+  font-weight: 600; }
+
 .para-primary {
   font-size: 1.7rem;
+  color: #182427;
+  font-weight: 500; }
+
+.para-secondary {
+  font-size: 1.2rem;
+  color: #182427; }
+
+.para-tertiary {
+  font-size: 1.6rem;
   color: #182427;
   font-weight: 500; }
 
@@ -139,7 +153,6 @@ body {
 
 .hiw {
   background-color: #fff;
-  border-radius: 2rem;
   width: 100%;
   padding: 6rem; }
   .hiw__heading {
@@ -161,7 +174,8 @@ body {
   align-self: center; }
   .z__text-box h3,
   .z__text-box p {
-    margin-left: 3rem; }
+    margin-left: 3rem;
+    margin-bottom: 2rem; }
 
 .z__img-box {
   width: 100%;
@@ -185,6 +199,36 @@ body {
     .z__img-box--03--img-2 {
       align-self: center; }
 
+.section-about-us {
+  background-color: #F0EFEF;
+  padding: 8rem; }
+
+.au {
+  background-color: #fff;
+  width: 100%;
+  padding: 6rem;
+  border-radius: 4.2rem; }
+  .au__img {
+    display: block;
+    width: 80%;
+    border-radius: 2rem; }
+  .au__grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem; }
+    .au__grid-box--1 {
+      padding: 2rem 0;
+      grid-template-columns: 1fr 1fr; }
+      .au__grid-box--1-text {
+        align-self: center; }
+        .au__grid-box--1-text h3 {
+          margin-bottom: 2rem; }
+        .au__grid-box--1-text p:not(:last-child) {
+          margin-bottom: 4rem; }
+    .au__grid-box--2 {
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 4rem; }
+
 .u-center-text {
   text-align: center; }
 
@@ -205,3 +249,6 @@ body {
 .u-paddig-l-r-10 {
   padding-left: 10rem;
   padding-right: 10rem; }
+
+.u-margin-top-4 {
+  margin-top: 4rem; }

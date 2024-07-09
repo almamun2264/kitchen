@@ -16,8 +16,28 @@
     font-weight: 400;
 }
 
+.heading-tertiary-2 {
+    font-size: 2rem;
+    color: $color-orange;
+    font-weight: 600;
+}
+
 .para-primary {
     font-size: 1.7rem;
+    color: $color-text;
+    font-weight: 500;
+    //padding: 0 15rem;
+}
+
+.para-secondary {
+    font-size: 1.2rem;
+    color: $color-text;
+    //font-weight: 500;
+    //padding: 0 15rem;
+}
+
+.para-tertiary {
+    font-size: 1.6rem;
     color: $color-text;
     font-weight: 500;
     //padding: 0 15rem;
