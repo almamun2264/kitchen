@@ -26,6 +26,11 @@ body {
   color: #182427;
   text-align: center; }
 
+.heading-tertiary {
+  font-size: 2.5rem;
+  color: #182427;
+  font-weight: 400; }
+
 .para-primary {
   font-size: 1.7rem;
   color: #182427;
@@ -122,6 +127,28 @@ body {
     .intro_text-box-item h2 {
       margin-bottom: 2rem;
       font-size: 3rem; }
+
+.section-hiw {
+  margin-top: 12rem; }
+
+.hiw__heading {
+  margin-bottom: 6rem;
+  text-align: center; }
+  .hiw__heading h2 {
+    margin-bottom: 2rem; }
+
+.hiw__z-pattern {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+  .hiw__z-pattern--img-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem; }
+
+.z {
+  border-radius: 2rem;
+  display: block;
+  width: 100%; }
 
 .u-center-text {
   text-align: center; }
